@@ -7,3 +7,7 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
+<<<<<<< HEAD
+=======
+  channel_prefix: shopping_list_app_production
+>>>>>>> d9cdf0c522ae1fa5b242a5f0f66e1235b8773022

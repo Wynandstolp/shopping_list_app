@@ -1,0 +1,24 @@
+peach:
+  name: Peach
+  description: loose
+  category_id: 1
+
+strawberry:
+  name: Strawberry
+  description: 250g punnit
+  category_id: 1
+
+steak:
+  name: Steak
+  description: Rump
+  category_id: 2
+
+risotto:
+  name: Risotto
+  description: 250g
+  category_id: 4
+
+yougurt:
+  name: Yougurt
+  description: 250g punnit
+  category_id: 7

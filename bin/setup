@@ -18,6 +18,13 @@ chdir APP_ROOT do
   system! 'gem install bundler --conservative'
   system('bundle check') || system!('bundle install')
 
+<<<<<<< HEAD
+=======
+  # Install JavaScript dependencies if using Yarn
+  # system('bin/yarn')
+
+
+>>>>>>> d9cdf0c522ae1fa5b242a5f0f66e1235b8773022
   # puts "\n== Copying sample files =="
   # unless File.exist?('config/database.yml')
   #   cp 'config/database.yml.sample', 'config/database.yml'

@@ -18,7 +18,11 @@ Rails.application.configure do
 
     config.cache_store = :memory_store
     config.public_file_server.headers = {
+<<<<<<< HEAD
       'Cache-Control' => 'public, max-age=172800'
+=======
+      'Cache-Control' => "public, max-age=#{2.days.seconds.to_i}"
+>>>>>>> d9cdf0c522ae1fa5b242a5f0f66e1235b8773022
     }
   else
     config.action_controller.perform_caching = false
